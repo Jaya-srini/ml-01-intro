@@ -7,9 +7,9 @@
 # Run:
 #   uv run python -m pytest
 
-from mlstudio import app_case
+from mlstudio import app_jaya
 
 
 def test_app_case_has_main() -> None:
     """Verify the example module exposes a main function."""
-    assert callable(app_case.main)
+    assert callable(app_jaya.main)
