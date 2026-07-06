@@ -59,6 +59,14 @@ to complete:
 4. Phase 4. **Modify**
 5. Phase 5. **Apply** <mark>(optional for Module 1)</mark>
 
+## Phase 4 - Technical changes
+Changed a minor detail but yeilds major model change.
+CANDIDATE_TARGET: Final[str] = "species" was changed to CANDIDATE_TARGET: Final[str] = "body_mass_g" (a numerical col)
+
+Its a parameter change that changes the logic without changing anything much on the code itself. Since the target is now numerical - model changes classification to regression.
+
+
+
 **Completing Phases 1-4 is the goal for Module 1.**
 Phase 5 is optional in Module 1.
 If your environment is working well and you still have some time, you might try it.
